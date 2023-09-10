@@ -17,4 +17,4 @@ def dd_to_dms(deg: float) -> dict:
     }
 
 def get_url(longitude: float, latitude: float, altitude: float):
-    return f'https://earth.google.com/web/search/@{longitude},{latitude},{100}a/' 
+    return f'https://earth.google.com/web/search/@{longitude},{latitude},{altitude}a/' 
